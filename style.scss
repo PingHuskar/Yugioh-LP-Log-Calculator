@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    // background: rgba($color: #000000, $alpha: 0.3);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    // background: var(--bg-color) !important;
+}
+.container {
+    h1 {
+        margin-top: 2vh !important;
+        text-align: center;
+    }
+    input {
+        width: 100%;
+        margin-top: 1vh !important;
+        margin-bottom: 3vh !important;
+        // padding-bottom: 0vh;
+    }
+}
